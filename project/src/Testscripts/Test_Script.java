@@ -23,7 +23,7 @@ public class Test_Script extends BaseClass
 
 		PomScript pms=new PomScript(driver);
 		pms.first(firstname);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		wait.until(ExpectedConditions.visibilityOf(pms.fname));
 		pms.last(lastname);
 		wait.until(ExpectedConditions.visibilityOf(pms.lname));
